@@ -1,0 +1,12 @@
+package com.example.kotlinbluetoothprinter
+
+import android.app.Application
+import com.mazenrashed.printooth.Printooth
+
+class ApplicationClass : Application() {
+
+    override fun onCreate() {
+        super.onCreate()
+        Print
+    }
+}
